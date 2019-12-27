@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<script src="ali/icon/iconfont.js"></script>
+		<link rel="stylesheet" href="css/exam.css">
+		<!--App自定义的css-->
+		<!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
+	</head>
+<style>
+.icon {
+  width: 4em;
+  height: 4em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.icon2 {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">2018-exam</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li id="switch" class="mui-table-view-cell">
+					定时轮播
+					<div class="mui-switch">
+						<div class="mui-switch-handle"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/yuantiao.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/shuijiao.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/muwu.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/cbd.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/yuantiao.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/shuijiao.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active" href="index.html">
+		    <svg class="icon2" aria-hidden="true">
+  <use xlink:href="#icon-home"></use>
+</svg>
+
+		    </a>
+		    <a class="mui-tab-item" href="imageviewer.html">
+		    <svg class="icon2" aria-hidden="true">
+  <use xlink:href="#icon-addresslist"></use>
+</svg>
+
+		    </a>
+		    <a class="mui-tab-item" href="page1.html">
+		    <svg class="icon2" aria-hidden="true">
+  <use xlink:href="#icon-play"></use>
+</svg>
+
+		    </a>
+		    <a class="mui-tab-item" href="login.html">
+		     <svg class="icon2" aria-hidden="true">
+  <use xlink:href="#icon-instruction"></use>
+</svg>
+
+		    </a>
+		</nav>
+		<div class="mui-content">
+		        <ul class="mui-table-view mui-grid-view mui-grid-9">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://cctv.com">
+		                   <svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-yuedu"></use>
+</svg>
+		                    <div class="mui-media-body">央视</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://sina.com">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-bishua"></use>
+</svg>
+		                    <div class="mui-media-body">新浪</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="offcanvas-drag-left.html">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-jiaodaidao"></use>
+</svg>
+		                    <div class="mui-media-body">侧滑</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-naozhong"></use>
+</svg>
+		                    <div class="mui-media-body">clock</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-rili"></use>
+</svg>
+		                    <div class="mui-media-body">date</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-biji"></use>
+</svg>
+		                    <div class="mui-media-body">Phone</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-shouji"></use>
+</svg>
+		                    <div class="mui-media-body">Setting</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-jiansuo"></use>
+</svg>
+		                    <div class="mui-media-body">about</div></a></li>
+		           <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-jiaoju"></use>
+</svg>
+		                    <div class="mui-media-body">more</div></a></li>
+		        </ul> 
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			var slider = mui("#slider");
+			document.getElementById("switch").addEventListener('toggle', function(e) {
+				if (e.detail.isActive) {
+					slider.slider({
+						interval: 5000
+					});
+				} else {
+					slider.slider({
+						interval: 0
+					});
+				}
+			});
+		</script>
+		
+		<script >
+        	mui.init();   	mui('body').on('tap','a',function(){document.location.href=this.href;});
+	   </script>
+		
+	</body>
+
+</html>

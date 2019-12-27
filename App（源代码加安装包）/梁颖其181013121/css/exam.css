@@ -1,0 +1,51 @@
+.mui-bar-nav{
+	background-color: #999999;
+}
+.mui-bar-nav .mui-title,.mui-bar-nav a{
+	color: #EEE0E5;
+	font-weight: 600;
+}
+.mui-grid-view.mui-grid-9{background: #FFEBCD;}
+.mui-table-view.mui-grid-view .mui-table-view-cell span{
+	font-size: 2em;
+	padding: 0.8rem;
+	color: #FFB90F;
+	text-align: center;
+	border-radius: 1rem;
+	background-image: none;
+}
+.mui-icon.mui-icon-home{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-email{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-chatbubble{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-location{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-search{
+	background-color: #2AC845;
+}
+
+.mui-icon-phone{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-gear{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-info{
+	background-color: #EEE0E5;
+}
+
+.mui-icon-more{
+	background-color: #EEE0E5;
+}
